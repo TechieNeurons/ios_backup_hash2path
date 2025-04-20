@@ -7,15 +7,18 @@ Only use standard library :)
 
 ## Why ?
 Here is a screen of a iOS backup:
+
 ![Example hashed filename](./readme_img/00_hashed_backup_files.png)
 
 Like you can see it's not obvious what each file is :/
 But ! We can recover the original filename and also the path of the file with the **Manifest.db** file!
 
 Let's take an example, on the following screenshot I've opened the **Manifest.db** file, and searched for the sms.db file:
+
 ![Manifest.db file, highligth sms.db](./readme_img/01_manifest_db_file.png)
 
 In this DB we have the hash value of the file, and if I look at my files, I have:
+
 ![hashed sms.db file](./readme_img/02_hashed_sms_db_file.png)
 
 Very nice! But nobody wants to do this with every file all day long!
